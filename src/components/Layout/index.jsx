@@ -5,7 +5,7 @@ function Layout() {
   return (
     <div>
       <Header />
-        <Outlet />
+      <Outlet />
     </div>
   );
 }

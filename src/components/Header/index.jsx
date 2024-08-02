@@ -16,7 +16,7 @@ function Header() {
         <li className='flex items-center gap-2'> My Account <FaAngleDown/></li>
       </ul>
     </div>
-    <div id='header2' className='w-full bg-slate-200 h-24 text-white flex justify-around items-center sticky'>
+    <div id='header2' className='w-full h-24 text-white flex justify-around items-center sticky'>
       <ul>
         <li className='text-2xl text-[#1e1e27] font-bold'>COLO<span className='text-[#fe4c50;]'>SHOP</span></li>
       </ul>
