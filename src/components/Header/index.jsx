@@ -18,7 +18,7 @@ function Header() {
     </div>
     <div id='header2' className='w-full h-24 text-white flex justify-around items-center sticky'>
       <ul>
-        <li className='text-2xl text-[#1e1e27] font-bold'>COLO<span className='text-[#fe4c50;]'>SHOP</span></li>
+        <li className='text-2xl text-[#1e1e27] font-bold'>COLO<span className='text-[#fe4c50]'>SHOP</span></li>
       </ul>
       <ul className='flex gap-10 text-black font-semibold'>
         <li className='flex items-center gap-2'>HOME</li>
