@@ -6,6 +6,8 @@ import Section4 from '../../components/Sections/Section4'
 import Section5 from '../../components/Sections/Section5'
 import Section6 from '../../components/Sections/Section6'
 import Section7 from '../../components/Sections/Section7'
+import Section8 from '../../components/Sections/Section8'
+import Footer from '../../components/Footer'
 function Shop() {
   return (
     <div>
@@ -16,6 +18,8 @@ function Shop() {
       <Section5/>
       <Section6/>
       <Section7/>
+      <Section8/>
+      <Footer/>
     </div>
   )
 }

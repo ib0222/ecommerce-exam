@@ -9,7 +9,7 @@ const Section6 = () => {
       <ul className="flex gap-1">
         <li className="flex items-center gap-4 bg-[#f3f3f3] px-7 py-3">
           <div>
-            <FaShippingFast />
+            <FaShippingFast size={30} color="red"/>
           </div>
           <div>
             <div className="uppercase text-sm">Free Shipping</div>
@@ -20,7 +20,7 @@ const Section6 = () => {
         </li>
         <li className="flex items-center gap-4 bg-[#f3f3f3] px-7 py-3">
           <div>
-            <FaMoneyBillAlt />
+            <FaMoneyBillAlt size={30} color="red"/>
           </div>
           <div>
             <div className="uppercase text-sm">Cach on delivery</div>
@@ -31,7 +31,7 @@ const Section6 = () => {
         </li>
         <li className="flex items-center gap-4 bg-[#f3f3f3] px-7 py-3">
           <div>
-            <IoReloadCircle />
+            <IoReloadCircle size={30} color="red"/>
           </div>
           <div>
             <div className="uppercase text-sm">45 Days return</div>
@@ -42,7 +42,7 @@ const Section6 = () => {
         </li>
         <li className="flex items-center gap-4 bg-[#f3f3f3] px-7 py-3">
           <div>
-            <IoTime />
+            <IoTime size={30} color="red"/>
           </div>
           <div>
             <div className="uppercase text-sm">Opening all week</div>
