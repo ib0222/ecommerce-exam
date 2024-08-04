@@ -3,7 +3,7 @@ import sliderImage from '../../../assets/slider_1.jpg'; // Adjust the import bas
 
 const Section1 = () => {
   return (
-    <div id="section1" className="relative w-full h-[700px] overflow-hidden mt-24">
+    <div id="section1" className="relative w-full h-[700px] overflow-hidden">
       <img src={sliderImage} alt="" className="w-full h-auto min-h-full object-cover" />
       <div className="absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/2 text-left w-[80%] max-w-[700px]">
         <div className="uppercase">Spring / Summer Collection 2017</div>

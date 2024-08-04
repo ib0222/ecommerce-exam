@@ -19,7 +19,7 @@ const Section7 = () => {
             <div className="bg-white p-3">
               <div className="text-lg text-center font-medium">Here are the trends I see coming this fall</div>
               <div className="uppercase text-xs mt-2 text-center text-gray-500">by admin | dec 01, 2017</div>
-              <div className="text-red-500 text-center">Read more</div>
+              <div className="text-red-500 text-center cursor-pointer hover:underline">Read more</div>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Section7 = () => {
             <div className="bg-white p-3">
               <div className="text-lg text-center font-medium">Here are the trends I see coming this fall</div>
               <div className="uppercase text-xs mt-2 text-center text-gray-500">by admin | dec 01, 2017</div>
-              <div className="text-red-500 text-center">Read more</div>
+              <div className="text-red-500 text-center cursor-pointer hover:underline">Read more</div>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const Section7 = () => {
             <div className="bg-white p-3">
               <div className="text-lg text-center font-medium">Here are the trends I see coming this fall</div>
               <div className="uppercase text-xs mt-2 text-center text-gray-500">by admin | dec 01, 2017</div>
-              <div className="text-red-500 text-center">Read more</div>
+              <div className="text-red-500 text-center cursor-pointer hover:underline">Read more</div>
             </div>
           </div>
         </div>
