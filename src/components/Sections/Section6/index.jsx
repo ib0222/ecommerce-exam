@@ -6,7 +6,7 @@ import { IoTime } from "react-icons/io5";
 const Section6 = () => {
   return (
     <div className="mt-16 flex justify-center">
-      <ul className="flex gap-1">
+      <ul className="flex gap-1 flex-col lg:flex-row">
         <li className="flex items-center gap-4 bg-[#f3f3f3] px-7 py-3">
           <div>
             <FaShippingFast size={30} color="red"/>

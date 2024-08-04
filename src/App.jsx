@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import AddProduct from "./pages/AddProduct"
 import Layout from "./components/Layout"
 import Shop from "./pages/Shop"
+import ProductPage from "./pages/ProductPage"
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path="addproduct" element={<AddProduct/>}/>
           <Route path="shop" element={<Shop/>}/>
+          <Route path="productpage" element={<ProductPage/>}/>
         </Route>
       </Routes>
     </>

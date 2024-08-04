@@ -14,23 +14,23 @@ function Header() {
           </li>
         </ul>
         <ul className="flex gap-10 text-black font-semibold ">
-          <li className="flex items-center gap-2">
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
             <Link to="/">HOME</Link>
           </li>
-          <li className="flex items-center gap-2">
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
             <Link to="shop">SHOP</Link>
           </li>
-          <li className="flex items-center gap-2">PROMOTION</li>
-          <li className="flex items-center gap-2">PAGES</li>
-          <li className="flex items-center gap-2">BLOG</li>
-          <li className="flex items-center gap-2">CONTACT</li>
-          <li className="flex items-center gap-2">
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">PROMOTION</li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">PAGES</li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">BLOG</li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200"><Link to="addproduct">ADD PRODUCT</Link> </li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
             <FaSearch />
           </li>
-          <li className="flex items-center gap-2">
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
             <IoIosPerson size={25} />
           </li>
-          <li className="flex items-center gap-2 bg-slate-300 p-4 rounded-full">
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200 bg-slate-300 p-4 rounded-full">
             <FaShoppingCart />
           </li>
         </ul>
