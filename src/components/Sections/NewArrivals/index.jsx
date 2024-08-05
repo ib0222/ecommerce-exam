@@ -1,9 +1,14 @@
-import React, { useContext } from "react";
-import Card from "../../Card"
-import { CardContext } from "../../../context/CardContext";
+import React, { useEffect, useState } from "react";
+import Card from "../../Card";
 
 const NewArrivals = () => {
-  const {data} = useContext(CardContext)
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:3000/products")
+      .then((res) => res.json())
+      .then((shopData) => setData(shopData));
+  }, []);
+  const itemsToDisplay = data.slice(0, 10);
 
   return (
     <div className="mt-16 max-w-7xl mx-auto">
@@ -20,10 +25,14 @@ const NewArrivals = () => {
         </ul>
       </div>
       <div className="grid grid-cols-5 mt-10">
-        {data.map((item) => (
-          <Card key={item.id} image={item.image} title={item.title} price={item.price}/>
+        {itemsToDisplay.map((item) => (
+          <Card
+            key={item.id}
+            image={item.image}
+            title={item.title}
+            price={item.price}
+          />
         ))}
-        
       </div>
     </div>
   );

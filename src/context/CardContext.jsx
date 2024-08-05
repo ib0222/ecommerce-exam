@@ -3,15 +3,9 @@ import { createContext, useEffect, useState } from "react";
 export const CardContext = createContext();
 
 export const CardContextProvider = ({ children }) => {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:3000/products")
-      .then((res) => res.json())
-      .then(shopData => setData(shopData));
-  },[])
-
+  const [favorites, setFavorites] = useState([]);
   return (
-    <CardContext.Provider value={{ data }}>
+    <CardContext.Provider value={{favorites,setFavorites }}>
       {children}
     </CardContext.Provider>
   );

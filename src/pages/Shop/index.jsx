@@ -1,9 +1,13 @@
-import React, { useContext } from "react";
+import { useEffect, useState } from "react";
 import Card from "../../components/Card";
-import { CardContext } from "../../context/CardContext";
 const Shop = () => {
 
-  const {data} = useContext(CardContext)
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:3000/products")
+      .then((res) => res.json())
+      .then(shopData => setData(shopData));
+  },[])
 
   return (
     <div className="flex flex-col gap-10 mt-10 max-w-7xl mx-auto lg:flex-row md:flex-row justify-center items-center md:items-start">
