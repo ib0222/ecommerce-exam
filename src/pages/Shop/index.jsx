@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "../../components/Card";
+import { CardContext } from "../../context/CardContext";
 const Shop = () => {
+
+  const {data} = useContext(CardContext)
+
   return (
     <div className="flex flex-col gap-10 mt-10 max-w-7xl mx-auto lg:flex-row md:flex-row justify-center items-center md:items-start">
       <ul className="space-y-7 m-10 ">
@@ -45,13 +49,10 @@ const Shop = () => {
       </ul>
 
       <div className="grid grid-cols-1 mx-auto lg:grid-cols-4 md:grid-cols-2">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {data.map((item) => (
+          <Card key={item.id} image={item.image} title={item.title} price={item.price}/>
+        ))}
+      
       </div>
     </div>
   );

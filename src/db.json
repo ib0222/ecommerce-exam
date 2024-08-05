@@ -36,6 +36,42 @@
          "price": 180,
          "image": "https://preview.colorlib.com/theme/coloshop/images/product_5.png",
          "category": "women"
-       }
+       },
+       {
+        "id": "6",
+        "title": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+        "price": 350,
+        "image": "https://preview.colorlib.com/theme/coloshop/images/product_6.png",
+        "category": "women"
+      },
+      {
+        "id": "7",
+        "title": "Apple MacBook Air 13-inch (M2, 2022)",
+        "price": 999,
+        "image": "https://preview.colorlib.com/theme/coloshop/images/product_7.png",
+        "category": "men"
+      },
+      {
+        "id": "8",
+        "title": "GoPro HERO10 Black Action Camera",
+        "price": 430,
+        "image": "https://preview.colorlib.com/theme/coloshop/images/product_8.png",
+        "category": "men"
+      },
+      {
+        "id": "9",
+        "title": "Samsung Galaxy S23 Ultra Smartphone",
+        "price": 1199,
+        "image": "https://preview.colorlib.com/theme/coloshop/images/product_9.png",
+        "category": "women"
+      },
+      {
+        "id": "10",
+        "title": "Logitech MX Master 3S Wireless Mouse",
+        "price": 99,
+        "image": "https://preview.colorlib.com/theme/coloshop/images/product_10.png",
+        "category": "accessories"
+      }
+      
      ]
    }

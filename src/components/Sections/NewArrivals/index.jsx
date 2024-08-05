@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Card from "../../Card"
+import { CardContext } from "../../../context/CardContext";
 
 const NewArrivals = () => {
+  const {data} = useContext(CardContext)
+
   return (
     <div className="mt-16 max-w-7xl mx-auto">
       <div className="text-4xl text-center">New Arrivals</div>
@@ -17,16 +20,10 @@ const NewArrivals = () => {
         </ul>
       </div>
       <div className="grid grid-cols-5 mt-10">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {data.map((item) => (
+          <Card key={item.id} image={item.image} title={item.title} price={item.price}/>
+        ))}
+        
       </div>
     </div>
   );

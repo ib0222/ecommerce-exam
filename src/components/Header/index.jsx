@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import { IoIosPerson } from "react-icons/io";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
-import '../Header/Header.css'
+import "../Header/Header.css";
 function Header() {
   return (
     <div className="sticky w-full top-0 z-50">
@@ -21,19 +21,29 @@ function Header() {
           <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
             <NavLink to="shop">SHOP</NavLink>
           </li>
-          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">PROMOTION</li>
-          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">PAGES</li>
-          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">BLOG</li>
-          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200"><NavLink to="addproduct">ADD PRODUCT</NavLink> </li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
+            PROMOTION
+          </li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
+            PAGES
+          </li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
+            BLOG
+          </li>
+          <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
+            <NavLink to="addproduct">ADD PRODUCT</NavLink>{" "}
+          </li>
           <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
             <FaSearch />
           </li>
           <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200">
             <IoIosPerson size={25} />
           </li>
+          <NavLink to="favorites">
           <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200 bg-slate-300 p-4 rounded-full">
-            <FaShoppingCart />
+              <FaShoppingCart />
           </li>
+          </NavLink>
         </ul>
       </div>
     </div>
