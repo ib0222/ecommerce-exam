@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Section2 = () => {
+const Banner = () => {
   return (
     <div className="mt-4 flex justify-center gap-7">
       <div id="card" className="relative h-56 group">
@@ -40,4 +40,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default Banner;

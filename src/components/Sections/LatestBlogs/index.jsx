@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section7 = () => {
+const LatestBlogs = () => {
   return (
     <div className="mt-10">
       <div className="text-4xl text-center">Latest Blogs</div>
@@ -60,4 +60,4 @@ const Section7 = () => {
   );
 };
 
-export default Section7;
+export default LatestBlogs;

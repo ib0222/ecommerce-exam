@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../Card"
 
-const Section3 = () => {
+const NewArrivals = () => {
   return (
     <div className="mt-16 max-w-7xl mx-auto">
       <div className="text-4xl text-center">New Arrivals</div>
@@ -32,4 +32,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default NewArrivals;

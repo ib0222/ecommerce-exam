@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../../Card";
-const Section5 = () => {
+const BestSellers = () => {
   return (
     <div className="mt-16 max-w-7xl mx-auto">
       <div className="text-4xl text-center">Best Sellers</div>
@@ -18,4 +18,4 @@ const Section5 = () => {
   );
 };
 
-export default Section5;
+export default BestSellers;

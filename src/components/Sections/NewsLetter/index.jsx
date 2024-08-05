@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Section8 = () => {
+const NewsLetter = () => {
   return (
-    <div className='mt-20 h-full bg-[#f2f2f2] flex justify-around py-8'>
+    <div className='mt-20 h-full bg-[#f2f2f2] flex flex-col justify-around text-center py-8 lg:flex-row items-center lg:text-start'>
       <div>
         <div className='text-2xl'>Newsletter</div>
         <div className='text-sm text-[#51545f]'>Subscribe to our newsletter and get 20% off your first purchase</div>
@@ -15,4 +15,4 @@ const Section8 = () => {
   )
 }
 
-export default Section8
+export default NewsLetter

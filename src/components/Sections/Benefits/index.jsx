@@ -3,7 +3,7 @@ import { FaShippingFast } from "react-icons/fa";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { IoReloadCircle } from "react-icons/io5";
 import { IoTime } from "react-icons/io5";
-const Section6 = () => {
+const Benefits = () => {
   return (
     <div className="mt-16 flex justify-center">
       <ul className="flex gap-1 flex-col lg:flex-row">
@@ -54,4 +54,4 @@ const Section6 = () => {
   );
 };
 
-export default Section6;
+export default Benefits;

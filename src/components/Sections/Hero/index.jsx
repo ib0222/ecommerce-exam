@@ -1,9 +1,9 @@
 import React from "react";
 import sliderImage from '../../../assets/slider_1.jpg'; // Adjust the import based on your actual image path
 
-const Section1 = () => {
+const Hero = () => {
   return (
-    <div id="section1" className="relative w-full h-[700px] overflow-hidden">
+    <div id="Hero" className="relative w-full h-[700px] overflow-hidden">
       <img src={sliderImage} alt="" className="w-full h-auto min-h-full object-cover" />
       <div className="absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/2 text-left w-[80%] max-w-[700px]">
         <div className="uppercase">Spring / Summer Collection 2017</div>
@@ -18,4 +18,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Hero;

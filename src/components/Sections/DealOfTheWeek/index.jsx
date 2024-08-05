@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section4 = () => {
+const DealOfTheWeek = () => {
   return (
     <div className="bg-[#f2f2f2] mt-10">
       <div className="flex justify-around max-w-7xl mx-auto">
@@ -45,4 +45,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default DealOfTheWeek;

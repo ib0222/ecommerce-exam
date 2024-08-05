@@ -6,8 +6,8 @@ import { GrSkype } from "react-icons/gr";
 import { FaPinterest } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className='p-10 flex justify-around'>
-          <ul className='flex gap-10'>
+    <div className='p-10 flex justify-center items-center flex-col lg:justify-around lg:flex-row gap-10'>
+          <ul className='flex gap-10 flex-col lg:flex-row'>
                <li>BLOG</li>
                <li>FAQs</li>
                <li>Contact us</li>

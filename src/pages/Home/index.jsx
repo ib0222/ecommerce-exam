@@ -1,21 +1,19 @@
 import React from 'react'
-import Section1 from '../../components/Sections/Section1'
-import Section2 from '../../components/Sections/Section2'
-import Section3 from '../../components/Sections/Section3'
-import Section4 from '../../components/Sections/Section4'
-import Section5 from '../../components/Sections/Section5'
-import Section6 from '../../components/Sections/Section6'
-import Section7 from '../../components/Sections/Section7'
-import Section8 from '../../components/Sections/Section8'
+import Hero from '../../components/Sections/Hero'
+import Banner from '../../components/Sections/Banner'
+import NewArrivals from '../../components/Sections/NewArrivals'
+import DealOfTheWeek from '../../components/Sections/DealOfTheWeek'
+import BestSellers from '../../components/Sections/BestSellers'
+import LatestBlogs from '../../components/Sections/LatestBlogs'
 function Home() {
   return (
     <div>
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      <Section5/>
-      <Section7/>
+      <Hero/>
+      <Banner/>
+      <NewArrivals/>
+      <DealOfTheWeek/>
+      <BestSellers/>
+      <LatestBlogs/>
 
     </div>
   )
