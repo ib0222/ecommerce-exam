@@ -48,13 +48,13 @@ function Header() {
           <NavLink to="favorites">
             <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200 bg-slate-300 p-4 rounded-full relative">
               {favorites.length > 0 && <div className='absolute left-8 bottom-8 bg-red-500 text-white p-2 rounded-full w-6 h-6 text-center flex justify-center items-center'>{favorites.length}</div>}
-              <FaShoppingCart />
+              <FaHeart/>
             </li>
           </NavLink>
-          <NavLink to="favorites">
+        <NavLink to="wishlist">
             <li className="flex items-center gap-2 hover:text-gray-400 ease-in-out duration-200 bg-slate-300 p-4 rounded-full relative">
               {wishlist.length > 0 && <div className='absolute left-8 bottom-8 bg-red-500 text-white p-2 rounded-full w-6 h-6 text-center flex justify-center items-center'>{wishlist.length}</div>}
-              <FaHeart />
+              <FaShoppingCart />
             </li>
           </NavLink>
             

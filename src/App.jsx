@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import Shop from "./pages/Shop";
 import ProductPage from "./pages/ProductPage";
 import Favorites from "./pages/Favorites"
+import Wishlist from "./pages/Wishlist"
 import { CardContextProvider } from "./context/CardContext";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="shop" element={<Shop />} />
             <Route path="productpage" element={<ProductPage />} />
             <Route path="favorites" element={<Favorites />} />
+            <Route path="wishlist" element={<Wishlist />} />
           </Route>
         </Routes>
       </CardContextProvider>

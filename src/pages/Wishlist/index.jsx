@@ -2,13 +2,13 @@ import React, { useContext } from 'react'
 import { CardContext } from '../../context/CardContext'
 import Card from "../../components/Card"
 const Wishlist = () => {
-  const { wishlist, setWishlistj } = useContext(CardContext)
+  const { wishlist, setWishlist } = useContext(CardContext)
   if (wishlist.length === 0) {
-    return <div className="flex justify-center items-center h-screen -mt-20 text-2xl text-neutral-600 font-semibold">No favorite products</div>
+    return <div className="flex justify-center items-center h-screen -mt-20 text-2xl text-neutral-600 font-semibold">No basket products</div>
   }
   return (
     <div className='mt-10'>
-      <div className="text-4xl text-center">Wishlist</div>
+      <div className="text-4xl text-center">Basket</div>
       <div className="w-full flex justify-center mt-4">
         <div className="bg-red-600 w-16 h-1"></div>
       </div>
