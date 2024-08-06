@@ -6,8 +6,8 @@ const BestSellers = () => {
   useEffect(() => {
     fetch("http://localhost:3000/products")
       .then((res) => res.json())
-      .then(shopData => setData(shopData));
-  },[])
+      .then((shopData) => setData(shopData));
+  }, []);
   const itemsToDisplay = data.slice(0, 5);
 
   return (
@@ -20,6 +20,7 @@ const BestSellers = () => {
       <div className="grid grid-cols-5 mt-10">
         {itemsToDisplay.map((item) => (
           <Card
+            id={item.id}
             key={item.id}
             image={item.image}
             title={item.title}
