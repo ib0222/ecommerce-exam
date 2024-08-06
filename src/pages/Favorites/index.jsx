@@ -8,7 +8,7 @@ const Favorites = () => {
   }
   return (
     <div>
-      {favorites.map((item,idx) => (
+      {favorites.map((item) => (
         <Card
           key={item.id}
           id={item.id}
