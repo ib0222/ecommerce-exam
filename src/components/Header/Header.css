@@ -1,3 +1,10 @@
 .active{
-    color: rgb(144, 144, 144);
+    color: red;
 }
+/* Header.css */
+@media (max-width: 768px) {
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  

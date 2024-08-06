@@ -3,8 +3,7 @@ import { IoIosHeartEmpty, IoMdHeart } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { CardContext } from "../../context/CardContext";
 
-const Card = ({id,image,title,price}) => {
-
+const Card = React.memo(({id,image,title,price}) => {
   const { favorites, setFavorites } = useContext(CardContext);
 
   const handleFavorite = () => {
@@ -14,8 +13,6 @@ const Card = ({id,image,title,price}) => {
     } else {
       setFavorites(favorites.filter((item) => item.id !== id));
     }
-    console.log(favorites);
-    
   };
 
   return (
@@ -23,7 +20,7 @@ const Card = ({id,image,title,price}) => {
       <div className="flex justify-center">
         <img
           src={image}
-          alt="Fujifilm X100T 16 MP Digital Camera (Silver)"
+          alt={title}
         />
       </div>
       <div className="text-center text-balance">
@@ -49,6 +46,6 @@ const Card = ({id,image,title,price}) => {
       </button>
     </div>
   );
-};
+});
 
 export default Card;
